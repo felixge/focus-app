@@ -28,7 +28,7 @@ Clicking on the backdrop performs the same re-focusing as
 
 ## Dependencies
 
-- Some code from was taken from [Shortcut Recorder](http://wafflesoftware.net/shortcut/)
+- Some code was taken from [Shortcut Recorder](http://wafflesoftware.net/shortcut/)
 (BSD License) to enable the global shortcuts
 
 ## License
