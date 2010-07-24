@@ -3,7 +3,7 @@
 
 @implementation BackdropWindow
 
-@synthesize mouseClickSelector, delegate;
+@synthesize delegate;
 
 - (id)initWithScreen:(NSScreen *)screen
 {
