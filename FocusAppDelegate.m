@@ -42,8 +42,7 @@
 - (void)focus
 {
 	[self captureActiveApp];
-	[self clear];
-	[self activateActiveApp];
+	[self refocus];
 }
 
 - (void)captureActiveApp
