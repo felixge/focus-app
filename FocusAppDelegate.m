@@ -47,6 +47,9 @@
 
 - (void)captureActiveApp
 {
+	// I know what you think ... why isn't he using some native Cocoa API's? Well it turns out Cocoa is not meant
+	// for writing apps that control other apps. So as dirty as this looks, afaik it is the "cleanest" way to
+	// to do the window focus juggling I'm trying to achieve here.
 	NSAppleScript *as = [[NSAppleScript alloc] initWithSource:@"path to frontmost application as string"];
 	NSString *path = [[as executeAndReturnError:nil] stringValue];
 	
@@ -63,6 +66,7 @@
 		return;
 	}
 
+	// see comment in: captureActiveApp
 	NSString *script = [NSString stringWithFormat:
 						@"set front_app to (\"%@\")\ntell application front_app\nactivate\nend tell\n",
 						activeApp
@@ -77,6 +81,7 @@
 		[backdrop makeKeyAndOrderFront:NSApp];
 	}
 
+	// see comment in: captureActiveApp
 	NSString *script = [NSString stringWithFormat:
 						@"set front_app to (\"Focus.app\")\ntell application front_app\nactivate\nend tell\n",
 						activeApp

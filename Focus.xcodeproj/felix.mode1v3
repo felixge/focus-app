@@ -276,8 +276,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>12</integer>
-									<integer>1</integer>
+									<integer>28</integer>
+									<integer>27</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -331,7 +331,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DC71E2A911FB69260028CE6A</string>
+										<string>DC71E2B611FB6B7C0028CE6A</string>
 										<key>history</key>
 										<array>
 											<string>DCCA269D11FB1F56009E4388</string>
@@ -546,7 +546,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>DC71E2B111FB69260028CE6A</string>
 		<string>DC71E2B211FB69260028CE6A</string>
 		<string>DC71E2B311FB69260028CE6A</string>
 		<string>1C78EAAD065D492600B07095</string>
