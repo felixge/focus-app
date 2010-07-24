@@ -3,6 +3,11 @@
 A tiny [Think](http://freeverse.com/mac/product/?id=7013) clone that actually
 works with a dual (or single) screen setup.
 
+## Install
+
+1. Download [here](http://github.com/downloads/felixge/focus-app/Focus.app.zip)
+2. Install by unzipping an moving the contained file to `/Applications`
+
 ## What does it do?
 
 It basically does the same thing the original Think app does. By default it
