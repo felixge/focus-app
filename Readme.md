@@ -18,6 +18,9 @@ new window to be the focused one.
 4. Go back to the black backdrop using `Option + Command + Return`
 5. Re-focus on the app you last focused on using `Control + Command + Return`
 
+Clicking on the backdrop performs the same re-focusing as
+`Control + Command + Return`.
+
 ## Dependencies
 
 - Some code from was taken from [Shortcut Recorder](http://wafflesoftware.net/shortcut/)
