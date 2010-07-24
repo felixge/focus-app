@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -314,12 +312,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>FocusAppDelegate.m</string>
+								<string>PTKeyCombo.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -327,11 +327,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>FocusAppDelegate.m</string>
+										<string>PTKeyCombo.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DC71E27F11FB4DF00028CE6A</string>
+										<string>DC71E29A11FB676D0028CE6A</string>
 										<key>history</key>
 										<array>
 											<string>DCCA269D11FB1F56009E4388</string>
@@ -345,7 +345,8 @@
 											<string>DC5CD08E11FB447B0059F2DE</string>
 											<string>DC5CD09F11FB46F60059F2DE</string>
 											<string>DC5CD0C211FB49E50059F2DE</string>
-											<string>DC5CD0C911FB4A810059F2DE</string>
+											<string>DC71E29811FB676D0028CE6A</string>
+											<string>DC71E29911FB676D0028CE6A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
